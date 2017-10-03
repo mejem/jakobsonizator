@@ -1,0 +1,99 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use feature 'say';
+use Data::Dumper;
+
+sub  trim { my $s = shift; $s =~ s/^\s+|\s+$//g; return $s };
+
+my $head = << 'END';
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <title>Vzory</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+END
+print $head;
+my %paradigm;
+while (<>) {
+    chomp;
+    s/\[edit\]//;
+    my $line = $_;
+    next if /^-/;
+    my @field = split(/\t/);
+    if (defined $field[0] && $field[0] =~ /^[NAGIDLV]$/) {
+        $paradigm{"$field[0]"."s"} = $field[1];
+        $paradigm{"$field[0]"."d"} = $field[2];
+        $paradigm{"$field[0]"."p"} = $field[3];
+    } else {
+        if (defined $paradigm{Ns}) {
+            say "<table class='bordered'>";
+            say '<tr><th>Singular';
+            if ($paradigm{Ns} eq $paradigm{As}) {
+				say "<tr>" . "<td bgcolor=#ffc899>" . "$paradigm{Ns}" . "<td bgcolor=#ffc899>" . "$paradigm{As}" . "<td>" . "$paradigm{Gs}";
+			} elsif ($paradigm{As} eq $paradigm{Gs}) {
+				say "<tr>" . "<td>" . "$paradigm{Ns}" . "<td bgcolor=#ffc899>" . "$paradigm{As}" . "<td bgcolor=#ffc899>" . "$paradigm{Gs}";
+			} else {
+				say "<tr>" . "<td>" . "$paradigm{Ns}" . "<td>" . "$paradigm{As}" . "<td>" . "$paradigm{Gs}";
+			}
+			if ($paradigm{Is} eq $paradigm{Ds}) {
+				say "<tr>" . "<td bgcolor=#ffc899>" . "$paradigm{Is}" . "<td bgcolor=#ffc899>" . "$paradigm{Ds}" . "<td>" . "$paradigm{Ls}";
+			} elsif ($paradigm{Ds} eq $paradigm{Ls}) {
+				say "<tr>" . "<td>" . "$paradigm{Is}" . "<td bgcolor=#ffc899>" . "$paradigm{Ds}" . "<td bgcolor=#ffc899>" . "$paradigm{Ls}";
+			} else {
+				say "<tr>" . "<td>" . "$paradigm{Is}" . "<td>" . "$paradigm{Ds}" . "<td>" . "$paradigm{Ls}";
+			}
+			say "</table>";
+
+            if ($paradigm{Nd} ne "-") {
+    			say "<table class='bordered'>";
+                say '<tr><th>Dual';
+                if ($paradigm{Nd} eq $paradigm{Ad}) {
+    				say "<tr>" . "<td bgcolor=#ffc899>" . "$paradigm{Nd}" . "<td bgcolor=#ffc899>" . "$paradigm{Ad}" . "<td>" . "$paradigm{Gd}";
+    			} elsif ($paradigm{Ad} eq $paradigm{Gd}) {
+    				say "<tr>" . "<td>" . "$paradigm{Nd}" . "<td bgcolor=#ffc899>" . "$paradigm{Ad}" . "<td bgcolor=#ffc899>" . "$paradigm{Gd}";
+    			} else {
+    				say "<tr>" . "<td>" . "$paradigm{Nd}" . "<td>" . "$paradigm{Ad}" . "<td>" . "$paradigm{Gd}";
+    			}
+    			if ($paradigm{Id} eq $paradigm{Dd}) {
+    				say "<tr>" . "<td bgcolor=#ffc899>" . "$paradigm{Id}" . "<td bgcolor=#ffc899>" . "$paradigm{Dd}" . "<td>" . "$paradigm{Ld}";
+    			} elsif ($paradigm{Dd} eq $paradigm{Ld}) {
+    				say "<tr>" . "<td>" . "$paradigm{Id}" . "<td bgcolor=#ffc899>" . "$paradigm{Dd}" . "<td bgcolor=#ffc899>" . "$paradigm{Ld}";
+    			} else {
+    				say "<tr>" . "<td>" . "$paradigm{Id}" . "<td>" . "$paradigm{Dd}" . "<td>" . "$paradigm{Ld}";
+    			}
+                say "</table>";
+            }
+            if ($paradigm{Np} ne "-") {
+                say "<table class='bordered'>";
+                say '<tr><th>Plural';
+                if ($paradigm{Np} eq $paradigm{Ap}) {
+    				say "<tr>" . "<td bgcolor=#ffc899>" . "$paradigm{Np}" . "<td bgcolor=#ffc899>" . "$paradigm{Ap}" . "<td>" . "$paradigm{Gp}";
+    			} elsif ($paradigm{Ap} eq $paradigm{Gp}) {
+    				say "<tr>" . "<td>" . "$paradigm{Np}" . "<td bgcolor=#ffc899>" . "$paradigm{Ap}" . "<td bgcolor=#ffc899>" . "$paradigm{Gp}";
+    			} else {
+    				say "<tr>" . "<td>" . "$paradigm{Np}" . "<td>" . "$paradigm{Ap}" . "<td>" . "$paradigm{Gp}";
+    			}
+    			if ($paradigm{Ip} eq $paradigm{Dp}) {
+    				say "<tr>" . "<td bgcolor=#ffc899>" . "$paradigm{Ip}" . "<td bgcolor=#ffc899>" . "$paradigm{Dp}" . "<td>" . "$paradigm{Lp}";
+    			} elsif ($paradigm{Dp} eq $paradigm{Lp}) {
+    				say "<tr>" . "<td>" . "$paradigm{Ip}" . "<td bgcolor=#ffc899>" . "$paradigm{Dp}" . "<td bgcolor=#ffc899>" . "$paradigm{Lp}";
+    			} else {
+    				say "<tr>" . "<td>" . "$paradigm{Ip}" . "<td>" . "$paradigm{Dp}" . "<td>" . "$paradigm{Lp}";
+    			}
+                say "</table>";
+            }
+        }
+        if ($line =~ /\S/) {
+            say "<h3>" . $line . "</h3>" if $line =~ /\S/;
+        } else {
+            say "";
+        }
+        undef %paradigm;
+    }
+}
+say "</body></html>";

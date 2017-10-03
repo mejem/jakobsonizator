@@ -1,0 +1,312 @@
+Nouns[edit]
+
+o-stems[edit]
+Masculine gender ("town")
+-	Singular	Dual	Plural
+N	grad-ъ	grad-a	grad-i
+G	grad-a	grad-u	grad-ъ
+D	grad-u	grad-oma	grad-omъ
+A	grad-ъ	grad-a	grad-y
+V	grad-e	grad-a	grad-i
+L	grad-ě	grad-u	grad-ěxъ
+I	grad-omь	grad-oma	grad-y
+
+Neuter gender ("wine")
+-	Singular	Dual	Plural
+N	vin-o	vin-ě	vin-a
+G	vin-a	vin-u	vin-ъ
+D	vin-u	vin-oma	vin-omъ
+A	vin-o	vin-ě	vin-a
+V	vin-o	vin-ě	vin-a
+L	vin-ě	vin-u	vin-ěxъ
+I	vin-omь	vin-oma	vin-y
+
+jo-stems[edit]
+Masculine gender ("knife")
+-	Singular	Dual	Plural
+N	nož-ь	nož-a	nož-i
+G	nož-a	nož-u	nož-ь
+D	nož-u	nož-ema	nož-emъ
+A	nož-ь	nož-a	nož-ę
+V	nož-u	nož-a	nož-i
+L	nož-i	nož-u	nož-ixъ
+I	nož-emь	nož-ema	nož-i
+
+Neuter gender ("sea")
+-	Singular	Dual	Plural
+N	mor-e	mor-i	mor-a
+G	mor-a	mor-u	mor-ь
+D	mor-u	mor-ema	mor-emъ
+A	mor-e	mor-i	mor-a
+V	mor-e	mor-i	mor-a
+L	mor-i	mor-u	mor-ixъ
+I	mor-emь	mor-ema	mor-i
+
+a-stems[edit]
+Feminine gender ("hand/arm")
+-	Singular	Dual	Plural
+N	rǫk-a	rǫc-ě	rǫk-y
+G	rǫk-y	rǫk-u	rǫk-ъ
+D	rǫc-ě	rǫk-ama	rǫk-amъ
+A	rǫk-ǫ	rǫc-ě	rǫk-y
+V	rǫk-o	rǫc-ě	rǫk-y
+L	rǫc-ě	rǫk-u	rǫk-axъ
+I	rǫk-ojǫ	rǫk-ama	rǫk-ami
+
+ja-stems[edit]
+Feminine gender ("soul")
+-	Singular	Dual	Plural
+N	duš-a	duš-i	duš-ę
+G	duš-ę	duš-u	duš-ь
+D	duš-i	duš-ama	duš-amъ
+A	duš-ǫ	duš-i	duš-ę
+V	duš-e	duš-i	duš-ę
+L	duš-i	duš-u	duš-axъ
+I	duš-ejǫ	duš-ama	duš-ami
+
+Masculine gender ("guest")
+-	Singular	Dual	Plural
+N	gost-ь	gost-i	gost-ьje
+G	gost-i	gost-ьju	gost-ьi
+D	gost-i	gost-ьma	gost-ьmъ
+A	gost-ь	gost-i	gost-i
+V	gost-i	gost-i	gost-ьje
+L	gost-i	gost-ьju	gost-ьxъ
+I	gost-ьmь	gost-ьma	gost-ьmi
+
+Feminine gender ("bone")
+-	Singular	Dual	Plural
+N	kost-ь	kost-i	kost-i
+G	kost-i	kost-ьju	kost-ьi
+D	kost-i	kost-ьma	kost-ьmъ
+A	kost-ь	kost-i	kost-i
+V	kost-i	kost-i	kost-i
+L	kost-i	kost-ьju	kost-ьxъ
+I	kost-ьjǫ	kost-ьma	kost-ьmi
+
+u-stems[edit]
+Masculine gender ("house")
+-	Singular	Dual	Plural
+N	dom-ъ	dom-y	dom-ove
+G	dom-u	dom-ovu	dom-ovъ
+D	dom-ovi	dom-ъma	dom-ъmъ
+A	dom-ъ	dom-y	dom-y
+V	dom-u	dom-y	dom-ove
+L	dom-u	dom-ovu	dom-ъxъ
+I	dom-ъmь	dom-ъma	dom-ъmi
+
+ū-stems[edit]
+Feminine gender
+-	Singular	Dual	Plural
+N	tik-y	tikъv-i	tikъv-i
+G	tikъv-e	tikъv-u	tikъv-ъ
+D	tikъv-i	tikъv-ama	tikъv-amъ
+A	tikъv-ь	tikъv-i	tikъv-i
+V	tik-y	tikъv-i	tikъv-i
+L	tikъv-e	tikъv-u	tikъv-axъ
+I	tikъv-ьjǫ	tikъv-ama	tikъv-ami
+
+n-stems[edit]
+Masculine gender ("stone")
+-	Singular	Dual	Plural
+N	kam-y	kamen-i	kamen-e
+G	kamen-e	kamen-u	kamen-ъ
+D	kamen-i	kamen-ьma	kamen-ьmъ
+A	kamen-ь	kamen-i	kamen-i
+V	kam-y	kamen-i	kamen-e
+L	kamen-e	kamen-u	kamen-ьxъ
+I	kamen-ьmь	kamen-ьma	kamen-ьmi
+
+Neuter gender ("tribe")
+-	Singular	Dual	Plural
+N	plem-ę	plemen-i	plemen-a
+G	plemen-e	plemen-u	plemen-ъ
+D	plemen-i	plemen-ьma	plemen-ьmъ
+A	plem-ę	plemen-i	plemen-a
+V	plem-ę	plemen-i	plemen-a
+L	plemen-e	plemen-u	plemen-ьxъ
+I	plemen-ьmь	plemen-ьma	plemen-y
+
+s-stems[edit]
+Neuter gender ("sky/heaven")
+-	Singular	Dual	Plural
+N	neb-o	nebes-ě	nebes-a
+G	nebes-e	nebes-u	nebes-ъ
+D	nebes-i	nebes-ьma	nebes-ьmъ
+A	neb-o	nebes-ě	nebes-a
+V	neb-o	nebes-ě	nebes-a
+L	nebes-e	nebes-u	nebes-ьxъ
+I	nebes-ьmь	nebes-ьma	nebes-y
+
+t-stems[edit]
+Neuter gender ("calf")
+-	Singular	Dual	Plural
+N	tel-ę	telęt-ě	telęt-e
+G	telęt-e	telęt-u	telęt-ъ
+D	telęt-i	telęt-ьma	telęt-ьmъ
+A	tel-ę	telęt-ě	telęt-a
+V	tel-ę	telęt-ě	telęt-a
+L	telęt-e	telęt-u	telęt-ьxъ
+I	telęt-ьmь	telęt-ьma	telęt-y
+
+r-stems[edit]
+Feminine gender ("mother")
+-	Singular	Dual	Plural
+N	mat-i	mater-i	mater-i
+G	mater-e	mater-u	mater-ъ
+D	mater-i	mater-ьma	mater-ьmъ
+A	mater-ь	mater-i	mater-i
+V	mat-i	mater-i	mater-i
+L	mater-i	mater-u	mater-ьxъ
+I	mater-ьjǫ	mater-ьma	mater-ьmi
+
+
+Pronouns[edit]
+
+Personal pronouns[edit]
+First person pronoun
+N	azъ	vě	my
+G	mene	naju	nasъ
+D	mьně	nama	namъ
+A	mę	na	ny
+L	mьně	naju	nasъ
+I	mъnojǫ	nama	nami
+
+Second person pronoun
+N	ty	va	vy
+G	tebe	vaju	vasъ
+D	tebě	vama	vamъ
+A	tę	va	vy
+L	tebě	vaju	vasъ
+I	tobojǫ	vama	vami
+
+
+Reflexive pronoun
+N	-	-	-
+G	sebe	-	-
+D	sebě	-	-
+A	sę	-	-
+L	sebě	-	-
+I	sobojǫ	-	-
+
+
+jь ja je inflection
+Masculine gender
+N	jь	ja	ji
+G	jego	jeju	ichъ
+D	jemu	ima	imъ
+A	jь	ja	ję
+L	jemь	jeju	ichъ
+I	imь	ima	imi
+
+Feminine gender
+N	ja	ji	ję
+G	jeję	jeju	ichъ
+D	jei	ima	imъ
+A	jǫ	ji	ję
+L	jei	jeju	ichъ
+I	jejǫ	ima	imi
+
+Neuter gender
+N	je	ji	ja
+G	jego	jeju	ichъ
+D	jemu	ima	imъ
+A	je	ji	ja
+L	jemь	jeju	ichъ
+I	imь	ima	imi
+
+
+tъ, ta, to inflection
+Masculine gender
+N	tъ	ta	ti
+G	togo	toju	těchъ
+D	tomu	těma	těmъ
+A	tъ	ta	ty
+L	tomь	toju	těchъ
+I	těmь	těma	těmi
+
+Feminine gender
+N	ta	tě	ty
+G	toję	toju	těchъ
+D	toi	těma	těmъ
+A	tǫ	tě	ty
+L	toi	toju	těchъ
+I	tojǫ	těma	těmi
+
+Neuter gender
+N	to	tě	ta
+G	togo	toju	těchъ
+D	tomu	těma	těmъ
+A	to	tě	ta
+L	tomь	toju	těchъ
+I	těmь	těma	těmi
+
+
+Interrogative pronouns
+N	kъto	-	-
+G	kogo	-	-
+D	komu	-	-
+A	kogo	-	-
+L	komь	-	-
+I	cěmь	-	-
+
+N	čьto	-	-
+G	česo	-	-
+D	česomu	-	-
+A	čьto	-	-
+L	čemь	-	-
+I	čimь	-	-
+
+
+sь si se inflection
+Masculine gender
+N	sь	sьja	sьi
+G	sego	seju	sichъ
+D	semu	sima	simъ
+A	sь	sьja	sьję
+L	semь	seju	sichъ
+I	simь	sima	simi
+
+Feminine gender
+N	si	si	sьję
+G	seję	seju	sichъ	
+D	sei	sima	simъ
+A	sьjǫ	si	sьję
+L	sei	seju	sichъ
+I	sejǫ	sima	simi
+
+Neuter gender
+N	se	si	si
+G	sego	seju	sichъ
+D	semu	sima	simъ
+A	se	si	si
+L	semь	seju	sichъ
+I	simь	sima	simi
+
+
+kyi, kaja, koje inflection
+Masculine gender
+N	kyi	-	cii
+G	kojego	-	kyichъ
+D	kojemu	-	kyimъ
+A	kyi	-	kyję
+L	kojemь	-	kyichъ
+I	kyimь	-	kyimi
+
+Feminine gender
+N	kaja	-	kyję
+G	kojeję	-	kyichъ
+D	kojei	-	kyimъ
+A	kǫjǫ	-	kyję
+L	kojei	-	kyichъ
+I	kojejǫ	-	kyimi
+
+Neuter gender
+N	koje	-	kaja
+G	kojego	-	kyichъ
+D	kojemu	-	kyimъ
+A	koje	-	kaja
+L	kojemь	-	kyichъ
+I	kyimь	-	kyimi	
+
+
