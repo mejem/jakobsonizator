@@ -1,3 +1,3 @@
 # cases
 
-usage: ./cases.pl  < stsl.txt > stsl.html
+usage: ./cases.py < stsl.txt > stsl.html
