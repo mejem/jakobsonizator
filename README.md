@@ -6,6 +6,7 @@ usage: `./cases.py < stsl.txt > stslo.html`
 
 you can preview output here: http://dionysos.fi.muni.cz:8080/stslo.html
 
+Input file format:
 - comments are lines starting with `-`
 - write cases in format `case<tab>singular<tab>dual<tab>plural`
 - cases are N, G, D, A, V, L, I
@@ -13,7 +14,8 @@ you can preview output here: http://dionysos.fi.muni.cz:8080/stslo.html
 - everything else will be simply printed out
 - string `[edit]` will be deleted
 
-example of input file:
+
+example of input file (it is copy&paste from wikipedia)
 ```
 Nouns[edit]
 
