@@ -37,11 +37,14 @@ def print_head():
   <body>''')
 
 def print_info_table():
-    print("<table class='bordered'>")
-    print('<tr><th>Tense')
-    print("<tr><td>Nominative<td>Accusative<td>Genitive")
-    print("<tr><td>Instrumental<td>Dative<td>Locative")
-    print("</table>")
+    print('''
+    <h1>Old church slavonic case syncretisms</h1>
+    <p>According to Roman Jakobson's theory</p>
+    <table class='bordered'>
+    <tr><th>Tense
+    <tr><td>Nominative<td>Accusative<td>Genitive
+    <tr><td>Instrumental<td>Dative<td>Locative
+    </table>''')
     print("<p class='indented'>{}</p>".format("Vocative"))
 
 def print_table_row(equiv, paradigm, tense, cases):
