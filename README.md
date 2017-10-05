@@ -3,8 +3,10 @@
 usage: `./cases.py < stsl.txt > stsl.html`
 
 - comments are lines starting with `-`
+- write cases in format `case<tab>singular<tab>dual<tab>plural`
 - cases are N, G, D, A, V, L, I
 - V is optional
+- everything else will be simply printed out
 - string `[edit]` will be deleted
 
 example of input file:
