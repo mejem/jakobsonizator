@@ -1,6 +1,8 @@
 # cases
 
-usage: `./cases.py < stsl.txt > stsl.html`
+usage: `./cases.py < stsl.txt > stslo.html`
+
+you can preview output here: http://dionysos.fi.muni.cz:8080/stslo.html
 
 - comments are lines starting with `-`
 - write cases in format `case<tab>singular<tab>dual<tab>plural`
