@@ -42,6 +42,7 @@ def print_info_table():
     print("<tr><td>Nominative<td>Accusative<td>Genitive")
     print("<tr><td>Instrumental<td>Dative<td>Locative")
     print("</table>")
+    print("<p class='indented'>{}</p>".format("Vocative"))
 
 def print_table_row(equiv, paradigm, tense, cases):
     print("<tr>", end='')
@@ -65,6 +66,12 @@ def print_table(equiv, paradigm, tense):
     print_table_row(equiv, paradigm, tense, ["N", "A", "G"])
     print_table_row(equiv, paradigm, tense, ["I", "D", "L"])
     print("</table>")
+    if "V" + tense in paradigm.keys():
+        class_of_eq = equiv_find(equiv, "V" + tense)
+        if class_of_eq >= 0:
+            print("<p class='indented'><span style=\"background-color: {}\">{}</span></p>".format(colors[class_of_eq], paradigm["V" + tense]))
+        else:
+            print("<p class='indented'>{}</p>".format(paradigm["Vs"]))
 
 print_head()
 print_info_table()
