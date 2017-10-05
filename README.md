@@ -1,4 +1,6 @@
-# cases
+# cases.py
+
+this script takes input data (langugage grammar) and generates html output (page cointaining colorful tables)
 
 usage: `./cases.py < stsl.txt > stslo.html`
 
