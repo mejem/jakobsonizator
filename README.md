@@ -4,7 +4,7 @@ this script takes input data (langugage grammar) and generates html output (page
 
 usage: `./cases.py < stsl.txt > stslo.html`
 
-you can preview output here: http://dionysos.fi.muni.cz:8080/stslo.html
+you can preview output here: https://is.muni.cz/auth/www/393725/stslo.html
 
 Input file format:
 - comments are lines starting with `-`
