@@ -1,6 +1,7 @@
 # Jakobsonizátor
 
-this script takes input data (langugage grammar) and generates html output (page cointaining colorful tables)
+- case syncretisms according to Roman Jakobson's theory
+- this script takes input data (langugage grammar) and generates html output (page cointaining colorful tables)
 
 usage: `./cases.py < stsl.txt > stslo.html`
 
