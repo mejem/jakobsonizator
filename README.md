@@ -1,4 +1,4 @@
-# cases.py
+# Jakobsonizátor
 
 this script takes input data (langugage grammar) and generates html output (page cointaining colorful tables)
 
